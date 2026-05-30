@@ -46,3 +46,18 @@ Make sure you have [Bun](https://bun.sh/) installed on your system.
 git clone [https://github.com/yourusername/nexusflow.git](https://github.com/yourusername/nexusflow.git)
 cd nexusflow
 bun install
+```
+
+## ⚙️ Environment Variables Setup
+
+To run NexusFlow, you need to configure your environment variables. 
+
+Create a `.env` file in the root directory of your project and add the following keys. Replace the placeholder values with your actual credentials.
+
+```env
+OPENAI_API_KEY="<YOUR_OPENAI_API_KEY>"
+OPENAI_DEFAULT_MODEL="<Your Model name>"
+FIRECRAWL_API_KEY="<YOUR_FIRECRAWL_API_KEY>"
+TELEGRAM_BOT_TOKEN="<YOUR_TELEGRAM_BOT_TOKEN>"
+TELEGRAM_OWNER_ID="<YOUR_TELEGRAM_OWNER_ID>"
+```
